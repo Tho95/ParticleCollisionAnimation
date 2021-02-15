@@ -1,24 +1,24 @@
 # collsision detection between particles and animation
+from tkinter import *
+import time
 
-class Particle:
+import Particle
+import Box
 
-    def __init__(self,radius,mass,color):
-        self.radius = radius
-        self.mass = mass
-        self.color = color
+window = Tk()
 
-    def getTop(self):
-        pass
+Width = 1200
+Height = 600
 
-    def getBottom(self):
-        pass
+canvas = Canvas(window, width = Width, height = Height)
+canvas.pack()
 
-    def getLeft(self):
-        pass
+p1 =
 
-    def getRight(self):
-        pass
-'''
-    def getCenter(self):
-        pass
-'''
+window.mainloop()
+
+
+
+
+
+
